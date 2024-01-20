@@ -26,6 +26,7 @@ public class CSVSteamGamesLoader implements  SteamGameLoader{
 
         while (line != null){
             list.add(toSteamGame(line));
+            line = buffer.readLine();
         }
 
         buffer.close();

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3283c1c-cc0a-4d7e-a7cc-d0d0d591e616" name="Changes" comment="Create main class and SteamGame Class">
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/CSVSteamGamesLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/SteamGameLoader.java" afterDir="false" />
+    <list default="true" id="e3283c1c-cc0a-4d7e-a7cc-d0d0d591e616" name="Changes" comment="Created CSVSteamGamesLoader class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/software/ulpgc/CSVSteamGamesLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/ulpgc/CSVSteamGamesLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/software/ulpgc/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/ulpgc/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="software.ulpgc.main" />
+      <module name="kata2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="software.ulpgc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705767089593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created CSVSteamGamesLoader class">
+      <created>1705767559377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705767559377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create main class and SteamGame Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create main class and SteamGame Class" />
+    <MESSAGE value="Created CSVSteamGamesLoader class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created CSVSteamGamesLoader class" />
   </component>
 </project>
