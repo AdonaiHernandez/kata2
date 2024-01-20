@@ -2,6 +2,7 @@ package software.ulpgc;
 
 import java.io.File;
 import java.util.List;
+import java.util.Map;
 
 public class main {
 
@@ -21,7 +22,13 @@ public class main {
             return;
         }
 
-        System.out.println(gamesFromFile.get(0));
+        SteamGameProcessor processor = new SteamGamesByPeakPlayers();
+
+        Map<String, Integer> games = processor.process(gamesFromFile);
+
+        games.forEach((name, count) -> {
+            System.out.println(name+": "+count);
+        });
 
     }
 
